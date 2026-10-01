@@ -23,7 +23,6 @@
         h2 { color: #1d1d1f; margin-bottom: 10px; }
         p { color: #6e6e73; font-size: 15px; margin-bottom: 30px; }
         
-        /* 苹果标准的 AR 唤醒大按钮 */
         .ar-btn {
             display: inline-block;
             background-color: #0071e3;
@@ -41,11 +40,11 @@
 <body>
 
     <div class="container">
-        <h2>工业展厅 3D AR 预览</h2>
-        <p>【测试模式】点击下方按钮，直接调起苹果原生 AR 视图</p>
+        <h2>工业展厅 3D 模型预览</h2>
+        <p>点击下方按钮，在现实环境中查看设备 AR 效果</p>
         
-        <!-- 苹果官方标准的 rel="ar" 唤醒链接 -->
-        <a rel="ar" href="https://developer.apple.com/augmented-reality/quick-look/models/gramophone/Gramophone.usdz">
+        <!-- 换回你的模型链接，并在末尾加上 #apple_ar_quicklook 参数防止跳转官方画廊 -->
+        <a rel="ar" href="https://raw.githubusercontent.com/yp04/Industrial-Room-AR/main/IndustrialRoom.usdz#apple_ar_quicklook">
             <span class="ar-btn">📦 在 AR 中查看 (View in AR)</span>
         </a>
     </div>
